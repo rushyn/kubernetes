@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: synergychat-crawler
   labels:
     app: synergychat-crawler
+  name: synergychat-crawler
 spec:
   replicas: 1
   selector:
